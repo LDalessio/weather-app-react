@@ -10,7 +10,7 @@ export default function App() {
         <footer>
           This website was coded by Lauren D'Alessio and is{" "}
           <a
-            href="https://github.com/LDalessio/react-weather-app"
+            href="https://github.com/LDalessio/weather-app-react"
             target="_blank"
             rel="noopener noreferrer"
           >

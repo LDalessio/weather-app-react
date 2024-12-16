@@ -22,7 +22,7 @@ export default function Weather(props) {
   }
   function search() {
     let apiKey = "73453af9f4a0a21aof85fet5591b1ffd";
-    let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
+    let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=imperial`;
 
     axios.get(apiUrl).then(handleResponse);
   }
@@ -56,11 +56,7 @@ export default function Weather(props) {
               ></input>
             </div>
             <div className="col-3">
-              <input
-                type="submit"
-                value="Search"
-                className="btn btn-outline-info w-100"
-              ></input>
+              <input type="submit" value="Search" className="button"></input>
             </div>
           </div>
         </form>

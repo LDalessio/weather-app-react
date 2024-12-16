@@ -6,3 +6,7 @@
   opacity: 0.6;
   margin-left: 5px;
 }
+.weather-icon {
+  width: 50px;
+  height: auto;
+}

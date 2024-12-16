@@ -26,7 +26,7 @@
 }
 
 .Weather .temperature {
-  font-size: 50px;
+  font-size: 60px;
   display: inline-block;
   margin-left: 10px;
 }
@@ -38,4 +38,19 @@
 }
 .Weather .value {
   color: pink;
+}
+.Weather .button {
+  background-color: pink;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.Weather .button:hover {
+  background-color: rgb(244, 142, 159);
 }
